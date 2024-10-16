@@ -1,0 +1,53 @@
+    1  history
+    2  mkdir new
+    3  ls
+    4  cd new
+    5  touch test.txt
+    6  ls -l
+    7  nano test.txt
+    8  cat test.txt
+    9  chmod 466 test.txt
+   10  ls -l
+   11  cd ..
+   12  rm -r new
+   13  ls
+   14  touch firsteversript.sh
+   15  nano firsteverscript.sh
+   16  cat firsteverscript.sh
+   17  ls
+   18  rm firsteversript.sh
+   19  cat firsteverscript.sh
+   20  ./firsteverscript.sh
+   21  mkdir scripts
+   22  mv firsteverscript.sh scripts
+   23  cd scripts
+   24  ls -l
+   25  chmod 766 firsteverscript.sh
+   26  ls -l
+   27  ./firsteverscript.sh
+   28  echo $PATH
+   29  nano ~/.bashrc
+   30  cd ..
+   31  echo $PATH
+   32  source ~/.bashrc
+   33  echo $PATH
+   34  cd ..
+   35  firsteverscript.sh
+   36  nano ~/.bashrc
+   37  firsteverscript.sh
+   38  source ~/.bashrc
+   39  firsteverscript.sh
+   40  echo $PATH
+   41  echo ~/.bashrc
+   42  nano ~/.bashrc
+   43  history
+   44  cd workspaces
+   45  cd sysadmin-laba
+   46  history | touch history.txt
+   47  cat history.txt
+   48  nano history.txt
+   49  history
+   50  history > history.txt
+   51  cat history.txt
+   52  rm history.txt
+   53  history > history.txt
